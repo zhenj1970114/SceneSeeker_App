@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171E0C7E1B8E5B84001E6242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */; };
+		171E0C801B8E5B84001E6242 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */; };
+		171E0C821B8E5B84001E6242 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C811B8E5B84001E6242 /* DetailViewController.swift */; };
+		171E0C851B8E5B84001E6242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171E0C831B8E5B84001E6242 /* Main.storyboard */; };
+		171E0C8A1B8E5B84001E6242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171E0C881B8E5B84001E6242 /* LaunchScreen.storyboard */; };
+		171E0CAE1B8E5C58001E6242 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0CAD1B8E5C58001E6242 /* Candy.swift */; };
+		945A51C01D4668E600090B65 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945A51BC1D4668E500090B65 /* Merriweather-Italic.ttf */; };
+		945A51C11D4668E600090B65 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945A51BD1D4668E500090B65 /* Merriweather-Light.ttf */; };
+		945A51C21D4668E600090B65 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945A51BE1D4668E500090B65 /* Merriweather-LightItalic.ttf */; };
+		945A51C31D4668E600090B65 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 945A51BF1D4668E500090B65 /* Merriweather-Regular.ttf */; };
+		945A51D31D46994600090B65 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945A51D21D46994600090B65 /* CustomCell.swift */; };
+		945A51DB1D47E21B00090B65 /* closeup, eye, magic.mov in Resources */ = {isa = PBXBuildFile; fileRef = 945A51D51D47E21B00090B65 /* closeup, eye, magic.mov */; };
+		945A51DC1D47E21B00090B65 /* fight, magic.mov in Resources */ = {isa = PBXBuildFile; fileRef = 945A51D61D47E21B00090B65 /* fight, magic.mov */; };
+		945A51DD1D47E21B00090B65 /* memory, magic.mov in Resources */ = {isa = PBXBuildFile; fileRef = 945A51D71D47E21B00090B65 /* memory, magic.mov */; };
+		945A51DE1D47E21B00090B65 /* closeup, revolution.mov in Resources */ = {isa = PBXBuildFile; fileRef = 945A51D81D47E21B00090B65 /* closeup, revolution.mov */; };
+		945A51DF1D47E21B00090B65 /* closeup, eye, mutate.mov in Resources */ = {isa = PBXBuildFile; fileRef = 945A51D91D47E21B00090B65 /* closeup, eye, mutate.mov */; };
+		94A7C6291D5A4F8A002A8A50 /* closeup, torture, slave, winter.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6241D5A4F8A002A8A50 /* closeup, torture, slave, winter.mov */; };
+		94A7C62A1D5A4F8A002A8A50 /* eye, horse, walker, panic.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6251D5A4F8A002A8A50 /* eye, horse, walker, panic.mov */; };
+		94A7C62B1D5A4F8A002A8A50 /* face, touch, AI.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6261D5A4F8A002A8A50 /* face, touch, AI.mov */; };
+		94A7C62C1D5A4F8A002A8A50 /* fight, church, control, music.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6271D5A4F8A002A8A50 /* fight, church, control, music.mov */; };
+		94A7C62D1D5A4F8A002A8A50 /* fight, firework, music, countdown.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6281D5A4F8A002A8A50 /* fight, firework, music, countdown.mov */; };
+		94A7C6351D5A56CA002A8A50 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A7C6341D5A56CA002A8A50 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		171E0C7A1B8E5B84001E6242 /* Scene Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		171E0C811B8E5B84001E6242 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		171E0C841B8E5B84001E6242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		171E0C891B8E5B84001E6242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		171E0C8B1B8E5B84001E6242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171E0CAD1B8E5C58001E6242 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		945A51BC1D4668E500090B65 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Merriweather-Italic.ttf"; path = "../../../../../Downloads/Merriweather/Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		945A51BD1D4668E500090B65 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Merriweather-Light.ttf"; path = "../../../../../Downloads/Merriweather/Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		945A51BE1D4668E500090B65 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Merriweather-LightItalic.ttf"; path = "../../../../../Downloads/Merriweather/Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		945A51BF1D4668E500090B65 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Merriweather-Regular.ttf"; path = "../../../../../Downloads/Merriweather/Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		945A51D21D46994600090B65 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
+		945A51D51D47E21B00090B65 /* closeup, eye, magic.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "closeup, eye, magic.mov"; path = "../Movieapp_videos/closeup, eye, magic.mov"; sourceTree = "<group>"; };
+		945A51D61D47E21B00090B65 /* fight, magic.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "fight, magic.mov"; path = "../Movieapp_videos/fight, magic.mov"; sourceTree = "<group>"; };
+		945A51D71D47E21B00090B65 /* memory, magic.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "memory, magic.mov"; path = "../Movieapp_videos/memory, magic.mov"; sourceTree = "<group>"; };
+		945A51D81D47E21B00090B65 /* closeup, revolution.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "closeup, revolution.mov"; path = "../Movieapp_videos/closeup, revolution.mov"; sourceTree = "<group>"; };
+		945A51D91D47E21B00090B65 /* closeup, eye, mutate.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "closeup, eye, mutate.mov"; path = "../Movieapp_videos/closeup, eye, mutate.mov"; sourceTree = "<group>"; };
+		94A7C6241D5A4F8A002A8A50 /* closeup, torture, slave, winter.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "closeup, torture, slave, winter.mov"; path = "../Movieapp_videos/closeup, torture, slave, winter.mov"; sourceTree = "<group>"; };
+		94A7C6251D5A4F8A002A8A50 /* eye, horse, walker, panic.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "eye, horse, walker, panic.mov"; path = "../Movieapp_videos/eye, horse, walker, panic.mov"; sourceTree = "<group>"; };
+		94A7C6261D5A4F8A002A8A50 /* face, touch, AI.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "face, touch, AI.mov"; path = "../Movieapp_videos/face, touch, AI.mov"; sourceTree = "<group>"; };
+		94A7C6271D5A4F8A002A8A50 /* fight, church, control, music.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "fight, church, control, music.mov"; path = "../Movieapp_videos/fight, church, control, music.mov"; sourceTree = "<group>"; };
+		94A7C6281D5A4F8A002A8A50 /* fight, firework, music, countdown.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "fight, firework, music, countdown.mov"; path = "../Movieapp_videos/fight, firework, music, countdown.mov"; sourceTree = "<group>"; };
+		94A7C6341D5A56CA002A8A50 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171E0C771B8E5B84001E6242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171E0C711B8E5B84001E6242 = {
+			isa = PBXGroup;
+			children = (
+				94A7C6341D5A56CA002A8A50 /* Media.xcassets */,
+				171E0C7C1B8E5B84001E6242 /* CandySearch */,
+				171E0C7B1B8E5B84001E6242 /* Products */,
+				945A51D51D47E21B00090B65 /* closeup, eye, magic.mov */,
+				945A51D61D47E21B00090B65 /* fight, magic.mov */,
+				945A51D71D47E21B00090B65 /* memory, magic.mov */,
+				945A51D81D47E21B00090B65 /* closeup, revolution.mov */,
+				945A51D91D47E21B00090B65 /* closeup, eye, mutate.mov */,
+				94A7C6241D5A4F8A002A8A50 /* closeup, torture, slave, winter.mov */,
+				94A7C6251D5A4F8A002A8A50 /* eye, horse, walker, panic.mov */,
+				94A7C6261D5A4F8A002A8A50 /* face, touch, AI.mov */,
+				94A7C6271D5A4F8A002A8A50 /* fight, church, control, music.mov */,
+				94A7C6281D5A4F8A002A8A50 /* fight, firework, music, countdown.mov */,
+			);
+			sourceTree = "<group>";
+		};
+		171E0C7B1B8E5B84001E6242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171E0C7A1B8E5B84001E6242 /* Scene Seeker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171E0C7C1B8E5B84001E6242 /* CandySearch */ = {
+			isa = PBXGroup;
+			children = (
+				171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */,
+				171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */,
+				171E0C811B8E5B84001E6242 /* DetailViewController.swift */,
+				171E0CAD1B8E5C58001E6242 /* Candy.swift */,
+				945A51D21D46994600090B65 /* CustomCell.swift */,
+				945A51BC1D4668E500090B65 /* Merriweather-Italic.ttf */,
+				945A51BD1D4668E500090B65 /* Merriweather-Light.ttf */,
+				945A51BE1D4668E500090B65 /* Merriweather-LightItalic.ttf */,
+				945A51BF1D4668E500090B65 /* Merriweather-Regular.ttf */,
+				171E0C831B8E5B84001E6242 /* Main.storyboard */,
+				171E0C881B8E5B84001E6242 /* LaunchScreen.storyboard */,
+				171E0C8B1B8E5B84001E6242 /* Info.plist */,
+			);
+			path = CandySearch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171E0C791B8E5B84001E6242 /* CandySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171E0CA41B8E5B84001E6242 /* Build configuration list for PBXNativeTarget "CandySearch" */;
+			buildPhases = (
+				171E0C761B8E5B84001E6242 /* Sources */,
+				171E0C771B8E5B84001E6242 /* Frameworks */,
+				171E0C781B8E5B84001E6242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandySearch;
+			productName = CandySearch;
+			productReference = 171E0C7A1B8E5B84001E6242 /* Scene Seeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171E0C721B8E5B84001E6242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Peartree Developers";
+				TargetAttributes = {
+					171E0C791B8E5B84001E6242 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 68343ZQJL9;
+					};
+				};
+			};
+			buildConfigurationList = 171E0C751B8E5B84001E6242 /* Build configuration list for PBXProject "CandySearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171E0C711B8E5B84001E6242;
+			productRefGroup = 171E0C7B1B8E5B84001E6242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171E0C791B8E5B84001E6242 /* CandySearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171E0C781B8E5B84001E6242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7C62B1D5A4F8A002A8A50 /* face, touch, AI.mov in Resources */,
+				945A51DF1D47E21B00090B65 /* closeup, eye, mutate.mov in Resources */,
+				94A7C62C1D5A4F8A002A8A50 /* fight, church, control, music.mov in Resources */,
+				94A7C6351D5A56CA002A8A50 /* Media.xcassets in Resources */,
+				945A51DE1D47E21B00090B65 /* closeup, revolution.mov in Resources */,
+				945A51DB1D47E21B00090B65 /* closeup, eye, magic.mov in Resources */,
+				171E0C8A1B8E5B84001E6242 /* LaunchScreen.storyboard in Resources */,
+				945A51DC1D47E21B00090B65 /* fight, magic.mov in Resources */,
+				94A7C6291D5A4F8A002A8A50 /* closeup, torture, slave, winter.mov in Resources */,
+				945A51DD1D47E21B00090B65 /* memory, magic.mov in Resources */,
+				94A7C62D1D5A4F8A002A8A50 /* fight, firework, music, countdown.mov in Resources */,
+				94A7C62A1D5A4F8A002A8A50 /* eye, horse, walker, panic.mov in Resources */,
+				945A51C01D4668E600090B65 /* Merriweather-Italic.ttf in Resources */,
+				945A51C21D4668E600090B65 /* Merriweather-LightItalic.ttf in Resources */,
+				945A51C31D4668E600090B65 /* Merriweather-Regular.ttf in Resources */,
+				171E0C851B8E5B84001E6242 /* Main.storyboard in Resources */,
+				945A51C11D4668E600090B65 /* Merriweather-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171E0C761B8E5B84001E6242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171E0C821B8E5B84001E6242 /* DetailViewController.swift in Sources */,
+				171E0CAE1B8E5C58001E6242 /* Candy.swift in Sources */,
+				945A51D31D46994600090B65 /* CustomCell.swift in Sources */,
+				171E0C801B8E5B84001E6242 /* MasterViewController.swift in Sources */,
+				171E0C7E1B8E5B84001E6242 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		171E0C831B8E5B84001E6242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171E0C841B8E5B84001E6242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		171E0C881B8E5B84001E6242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171E0C891B8E5B84001E6242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		171E0CA21B8E5B84001E6242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171E0CA31B8E5B84001E6242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		171E0CA51B8E5B84001E6242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TableViewRestart.MovieApp3;
+				PRODUCT_NAME = "Scene Seeker";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		171E0CA61B8E5B84001E6242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CandySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TableViewRestart.MovieApp3;
+				PRODUCT_NAME = "Scene Seeker";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171E0C751B8E5B84001E6242 /* Build configuration list for PBXProject "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171E0CA21B8E5B84001E6242 /* Debug */,
+				171E0CA31B8E5B84001E6242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171E0CA41B8E5B84001E6242 /* Build configuration list for PBXNativeTarget "CandySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171E0CA51B8E5B84001E6242 /* Debug */,
+				171E0CA61B8E5B84001E6242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171E0C721B8E5B84001E6242 /* Project object */;
+}
